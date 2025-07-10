@@ -56,10 +56,7 @@ yarn install
 
 ### 3. Set up environment variables
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
-CLERK_SECRET_KEY=your_key
-DATABASE_URL=your_neon_db_url
-GENAI_API_KEY=your_google_genai_key
+<pre lang="markdown"> ```env NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key CLERK_SECRET_KEY=your_key DATABASE_URL=your_neon_db_url GENAI_API_KEY=your_google_genai_key ``` </pre>
 
 ### 4. Run the server
 
