@@ -51,7 +51,7 @@ cd ai-content-generator
 ### 2. Install Dependencies
 
 npm install
-# or
+or
 yarn install
 
 ### 3. Set up environment variables
@@ -64,5 +64,5 @@ GENAI_API_KEY=your_google_genai_key
 ### 4. Run the server
 
 npm run dev
-# or
+or
 yarn dev
