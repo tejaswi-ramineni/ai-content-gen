@@ -46,7 +46,6 @@
 ### 1. Clone the repository
 
 git clone https://github.com/your-username/ai-content-generator.git
-cd ai-content-generator
 
 ### 2. Install Dependencies
 
@@ -56,7 +55,12 @@ yarn install
 
 ### 3. Set up environment variables
 
-<pre lang="markdown"> ```env NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key CLERK_SECRET_KEY=your_key DATABASE_URL=your_neon_db_url GENAI_API_KEY=your_google_genai_key ``` </pre>
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_key
+DATABASE_URL=your_neon_db_url
+GENAI_API_KEY=your_google_genai_key
+```
 
 ### 4. Run the server
 
